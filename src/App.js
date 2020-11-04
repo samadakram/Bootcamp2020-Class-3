@@ -29,7 +29,7 @@ function App(){
       </ol>
       <h2>addition of numbers</h2>
       <p>If we add 5 into 10, what will be the sum?</p>
-      <p>
+      <p className="solution-para">
         <b>SOLUTION:</b>
         {5 + 10}
       </p>
