@@ -7,7 +7,7 @@ function MediaCard({title, body, imageUrl}){
             <h2>Media Card Exercises</h2>
             <h2>{title}</h2>
             <p> {body} </p>
-            <img src={imageUrl} alt=""/>
+            <img src={imageUrl} alt="React-logo"/>
         </div>
     );
 }

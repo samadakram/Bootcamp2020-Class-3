@@ -35,7 +35,7 @@ function App(){
         <b>SOLUTION:</b>
         {5 + 10}
       </p>
-      <MediaCard title="Basic React Logo" imageUrl={ReactImg}/>
+      <MediaCard title="Basic React Logo" body="These are Basic React Exercises" imageUrl={ReactImg}/>
     </div>
   );
 }
