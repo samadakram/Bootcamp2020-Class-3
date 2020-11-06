@@ -6,6 +6,8 @@ function MediaCard({title, body, imageUrl}){
         <div>
             <h2>Media Card Exercises</h2>
             <h2>{title}</h2>
+            <p> {body} </p>
+            <img src={imageUrl} alt=""/>
         </div>
     );
 }

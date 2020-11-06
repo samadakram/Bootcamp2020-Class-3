@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import MediaCard from './MediaCard';
+import ReactImg from './image.png';
 
 function App(){
   return(
@@ -34,7 +35,7 @@ function App(){
         <b>SOLUTION:</b>
         {5 + 10}
       </p>
-      <MediaCard title="Basic React"/>
+      <MediaCard title="Basic React Logo" imageUrl={ReactImg}/>
     </div>
   );
 }
