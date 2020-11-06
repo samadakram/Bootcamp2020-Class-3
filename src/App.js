@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
 import MediaCard from './MediaCard';
+import Gate from './Gate.js';
 import ReactImg from './image.png';
 
 function App(){
+  let isOpen = false;
   return(
     <div className="container">
       Hello <strong> Abdul Samad! </strong>
@@ -36,6 +38,8 @@ function App(){
         {5 + 10}
       </p>
       <MediaCard title="Basic React Logo" body="These are Basic React Exercises" imageUrl={ReactImg}/>
+
+      <Gate gate={isOpen ? 'Open' : 'Closed'} />
     </div>
   );
 }
