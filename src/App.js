@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import MediaCard from './MediaCard';
 
 function App(){
   return(
@@ -33,6 +34,7 @@ function App(){
         <b>SOLUTION:</b>
         {5 + 10}
       </p>
+      <MediaCard title="Basic React"/>
     </div>
   );
 }
